@@ -1,5 +1,4 @@
 {
-  "homepage": "https://manish9690-star.github.io/Lottery/",
   "name": "lottery.project",
   "private": true,
   "version": "0.0.0",
@@ -7,16 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "preact": "^10.26.9"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.1",
-    "gh-pages": "^6.3.0",
     "vite": "^7.0.0"
   }
 }
